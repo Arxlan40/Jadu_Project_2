@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -139,7 +140,6 @@
           role="tabpanel"
           aria-labelledby="tab-register"
         >
-          <form>
             <div class="text-center mb-3">
               <p>Sign up with:</p>
               <button type="button" class="btn btn-primary btn-floating mx-1">
@@ -160,6 +160,7 @@
             </div>
 
             <p class="text-center">or:</p>
+            <form id="myForm">
 
             <!-- Name input -->
             <div class="form-outline mb-4">
@@ -211,16 +212,17 @@
                 checked
                 aria-describedby="registerCheckHelpText"
               />
+              </form>
               <label class="form-check-label" for="registerCheck">
                 I have read and agree to the terms
               </label>
             </div>
 
             <!-- Submit button -->
-            <button type="submit" class="btn btn-warning btn-block mb-3">
+            <button type="submit" id="registerbutton" class="btn btn-warning btn-block mb-3">
               Register
             </button>
-          </form>
+
         </div>
       </div>
       <!-- Pills content -->
@@ -231,5 +233,8 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
+   
+    <script src="login_logiut.js"></script>
+
   </body>
 </html>
