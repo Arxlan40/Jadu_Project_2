@@ -36,13 +36,23 @@
       <form>
         <!-- Name input -->
         <div class="form-outline mb-4">
-          <input type="text" id="contactfieldName" class="form-control" />
+          <input
+            type="text"
+            id="contactfieldName"
+            class="form-control"
+            required
+          />
           <label class="form-label" for="contactfieldName">Full name</label>
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4">
-          <input type="email" id="contactfieldEmail" class="form-control" />
+          <input
+            type="email"
+            id="contactfieldEmail"
+            class="form-control"
+            required
+          />
           <label class="form-label" for="contactfieldEmail"
             >Email address</label
           >
@@ -54,6 +64,7 @@
             class="form-control"
             id="contactfieldMessage"
             rows="4"
+            required
           ></textarea>
           <label class="form-label" for="contactfieldMessage">Message</label>
         </div>
@@ -73,7 +84,11 @@
         </div>
 
         <!-- Submit button -->
-        <button type="submit" class="btn btn-warning btn-block mb-4", id="contactbutton">
+        <button
+          id="btn_send"
+          type="submit"
+          class="btn btn-warning btn-block mb-4"
+        >
           Send
         </button>
         <button type="reset" class="btn btn-danger btn-block mb-4">
@@ -87,8 +102,6 @@
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
-    <script type="text/javascript"></script>
-    <script src="contact_us.js"></script>
-
+    <script type="text/javascript" src="./contactus.js"></script>
   </body>
 </html>
