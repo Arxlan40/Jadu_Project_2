@@ -57,13 +57,20 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <!-- Link -->
             <li class="nav-item">
-              <a class="nav-link text-warning" href="#">Home</a>
+              <a class="nav-link text-warning" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="#">About us</a>
+              <a class="nav-link text-warning" href="about.html">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="#">Contact us</a>
+              <a class="nav-link text-warning" href="contactus.html"
+                >Contact us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="comingsoon.html"
+                >Coming soon</a
+              >
             </li>
           </ul>
 
@@ -135,16 +142,20 @@
 
           <form class="m-2 w-auto d-flex">
             <button
+              id="btn_navbar_signin"
               class="btn btn-success mx-1"
               type="button"
               data-mdb-ripple-color="dark"
+              onclick="location.href='loginlogout.html';"
             >
               Sign in
             </button>
             <button
+              id="btn_navbar_signup"
               class="btn btn-secondary mx-1"
               type="button"
               data-mdb-ripple-color="dark"
+              onclick="location.href='loginlogout.html';"
             >
               Sign up
             </button>
@@ -293,6 +304,6 @@
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
-    <script type="text/javascript"></script>
+    <script type="text/javascript" src="./signupsignin.js"></script>
   </body>
 </html>
